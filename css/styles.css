@@ -869,6 +869,11 @@ resize: none;
         letter-spacing: 0.02em;
     }
 
+    .mobile.contacts {
+        display: flex;
+        visibility: visible;
+    }
+
     .mobile.contacts-list {
         display: flex;
         flex-direction: column;
@@ -900,6 +905,11 @@ resize: none;
 
     .policy-checkmark {
         flex-shrink: 0;
+    }
+
+    .is-open {
+        opacity: 1;
+        pointer-events: auto;
     }
 }
 
@@ -1024,6 +1034,7 @@ resize: none;
         flex-direction: row;
         justify-content: left;
     }
+
     .subscription-input {
         width: 264px;
         height: 40px;
